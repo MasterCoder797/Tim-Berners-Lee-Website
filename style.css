@@ -1,0 +1,82 @@
+body{
+    text-align: center;
+    margin-top: 700px;
+}
+#welcome{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 700px;
+    background:linear-gradient(blue 0%, red 100%);
+    opacity: 1;
+    width: 100%;
+    display: table
+}
+.header{
+    display:table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.profile{
+    width: 175px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+}
+h1{
+    font-family: cursive;
+    line-height: 2
+    
+}
+#name{
+    font-size: 45px;
+    line-height: 2;
+    font-family:'Cinzel Decorative', cursive;
+}
+#bio{
+    padding: 50px;
+    font-size: 42px;
+    
+    
+}
+.line{
+    background-color:#000000;
+    height:8px;
+    width:100px;
+    margin:8px auto;
+}
+p{
+    font-size: 17px;
+    max-width: 650px;
+    margin:25px auto;
+    line-height: 1.5;
+    font-family: 'Praise', cursive;
+}
+.menu{
+    position: fixed;
+    top:20px;
+    right:20px;
+    z-index:10;
+    cursor:pointer;
+}
+.links{
+    list-style: none;
+    float:left;
+    padding:5px 10px;
+    font-size: 18px;
+    font-family:fantasy;
+}
+.links:hover{
+    background-color: aqua
+}
+a{
+    text-decoration: none;
+    color:crimson;
+    
+}
+.article:hover{
+    color:aqua
+}
+html{
+    scroll-behavior: smooth
+}
